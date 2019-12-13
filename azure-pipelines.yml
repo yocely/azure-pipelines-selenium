@@ -40,4 +40,5 @@ steps:
   displayName: 'Publish Artifact'
   inputs:
     PathtoPublish: '$(build.artifactstagingdirectory)'
+    artifactName: 'yocely.azure-pipelines-selenium (4)'
   condition: succeededOrFailed()
